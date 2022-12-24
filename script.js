@@ -32,7 +32,7 @@ for (let i = 0; i <= 100; i++) {
 const n = prompt('Введите число');
 
 for (let i = 0; i < n; i++) {
-    if (n % n === 0 && n > i && n % 2 == !0) {
+    if (n % n === 0 && n > i && n % 2 ==! 0) {
         console.log('Целое число');
     } else {
         console.log('Не целое');
